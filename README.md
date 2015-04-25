@@ -2,7 +2,7 @@
 
 A simple 2048 clone, made with clojurescript and reagent
 
-#Rational
+##Rational
 
 I just dicovered csp style, and core.async.
 In the process I've seen a lot of clojure and clojurescript.
@@ -42,7 +42,7 @@ Clean project specific out:
      
 Optimized builds:
 
-    lein cljsbuild once release     
+    lein cljsbuild once dev 
 
 For more info on Cljs compilation, read [Waitin'](http://swannodette.github.io/2014/12/22/waitin/).
 
