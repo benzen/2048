@@ -1,9 +1,9 @@
 (defproject deux-mile-quarante-huit "0.1.0-SNAPSHOT"
-  :description "FIXME: write this!"
-  :url "http://example.com/FIXME"
+  :description "a 2048 clone written with clojurescript and reagent"
+  :url "https://github.com/benzen/2048"
 
   :dependencies [[org.clojure/clojure "1.6.0"]
-                 [org.clojure/clojurescript "0.0-2755"]
+                 [org.clojure/clojurescript "0.0-2816"]
                  [reagent "0.5.0" ]]
 
   :node-dependencies [[source-map-support "0.2.8"]]
