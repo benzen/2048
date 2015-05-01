@@ -78,10 +78,10 @@
   (let [rotation (dirToNbRot direction)
         reverseRotation (- 4 rotation)]
     (->> board
-         (add-2-random)
          (rotate-board-times rotation)
          (map sweep)
          (rotate-board-times reverseRotation)
+         (add-2-random)
          )))
 
 (def background {0    "#eee4da"

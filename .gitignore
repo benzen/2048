@@ -1,1 +1,8 @@
 *.swp
+.lein-failures
+.lein-repl-history
+node_modules/
+out-adv/
+out-test/
+out/
+target/
